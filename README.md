@@ -30,7 +30,7 @@ To build the app and get a single scripts for each popup app, content script, or
 - `0.1` May 2014 First version released
 
 
-## Credits
-Florent Lamoureux, [@flrent](http://twitter.com/flrent)
-<br>
-Create issues on github or ping me on [twitter](http://twitter.com/flrent)
+## License
+[Florent Lamoureux @flrent](http://twitter.com/flrent)
+Licensed under the MIT license.
+Copyright (c) 2014 - http://bugbuster.com
