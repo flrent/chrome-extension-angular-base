@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" ng-app=popup ng-csp>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- build:css popup.css -->
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="screen">
+        <link rel="stylesheet" href="bower_components/angular/angular-csp.css" type="screen">
+        <link rel="stylesheet" href="css/popup.css" type="screen">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- endbuild -->
+    <title>Popup Extension</title>
+  </head>
+
+  <body>
+
+    <div ng-controller="MainController">
+        <h1>Hey! {{welcomeMsg}}</h1>
+        <button class="btn btn-info" ng-click="contribute()">Contribute</button>
+    </div>
+
+    <!-- build:js popup.js -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/underscore/underscore.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="/scripts/app/modules/angular-underscore.min.js"></script>
+    <script type="text/javascript" src="/scripts/app/modules/ui-bootstrap-0.9.0.min.js"></script>
+    <script src="scripts/app/app.js"></script>
+    <script src="scripts/app/services/storage.js"></script>
+    <script src="scripts/app/controllers/controllers.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
