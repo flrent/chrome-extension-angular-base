@@ -4,7 +4,7 @@ angular.module('popup')
 
       $scope.contribute = function() {
         chrome.tabs.create({
-          url: 'http://github.com'
+          url: 'https://github.com/flrent/chrome-extension-angular-base'
         })
       }
   }])
