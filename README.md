@@ -32,5 +32,6 @@ To build the app and get a single scripts for each popup app, content script, or
 
 ## License
 [Florent Lamoureux @flrent](http://twitter.com/flrent)
+<br>
 Licensed under the MIT license.
 Copyright (c) 2014 - http://bugbuster.com
