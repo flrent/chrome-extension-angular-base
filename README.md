@@ -21,6 +21,9 @@ This includes :
 ## Build and deploy
 The build `manifest.json` file is `manifest-build.json`. It differs from the regular `manifest.json` to use only built files (single files for the all popup app, content scripts or background pages).
 
+To build the app and get a single scripts for each popup app, content script, or background page, simpy run :
+
+`grunt build`
 
 ## Versions
 - `0.1` May 2014 First version released
