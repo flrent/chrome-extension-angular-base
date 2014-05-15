@@ -13,6 +13,7 @@ This includes :
 
 ## Get Started
 - Clone this repo
+- Run `npm install` and `bower install`
 - Go to `chrome://extensions/`
 - Activate developer mode
 - Click on  `load an unpacked extension` and locate your cloned repo, and select the `app` folder
