@@ -1,7 +1,6 @@
 A Chrome Extension base project with AngularJS
 ================
 
-
 This is a scaffolding project to help you get started.
 This includes :
 
@@ -10,6 +9,10 @@ This includes :
 - jQuery / Underscore.js
 - Mochai/Chai/SinonJS for testing contentscripts
 - Grunt and Bower
+
+See some slides about creating chrome extensions [here](http://www.slideshare.net/flrent/build-your-own-chrome-extension-with-angularjs)
+
+![http://www.slideshare.net/flrent/build-your-own-chrome-extension-with-angularjs](http://i.imgur.com/pFPXooZ.png)
 
 ## Get Started
 - Clone this repo
